@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/batteryPanel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Plugged Info. Layout -->
+
+    <TextView
+        android:id="@+id/battery_testcase_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_battery_panel"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:id="@+id/pluggedLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/battery_testcase_title" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_plugged"
+            android:textSize="33dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/pluggedState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="33dp" >
+        </TextView>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/statusLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pluggedLayout"
+        android:orientation="vertical" >
+
+        <!-- Status Info. Layout -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_status"
+                android:textSize="33dp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/statusValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="33dp" >
+            </TextView>
+        </TableRow>
+
+        <!-- Health Info. Layout -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_health"
+                android:textSize="33dp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/healthState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="33dp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/healthTestResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:textSize="33dp" />
+        </TableRow>
+
+        <!-- Level Info. Layout -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_level"
+                android:textSize="33dp" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/levelValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="33dp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/battery_level_unit"
+                    android:textSize="33dp" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/levelTestResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:textSize="33dp" />
+        </TableRow>
+
+        <!-- Current Info. Layout -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_current"
+                android:textSize="33dp" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/currentValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="33dp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/battery_current_unit"
+                    android:textSize="33dp" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/currentTestResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:textSize="33dp" />
+        </TableRow>
+
+        <!-- Voltage Info. Layout -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_voltage"
+                android:textSize="33dp" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/voltageValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="33dp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/battery_voltage_unit"
+                    android:textSize="33dp" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/voltageTestResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:textSize="33dp" />
+        </TableRow>
+
+        <!-- Temperature Info. Layout -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_temperature"
+                android:textSize="33dp" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/temperatureValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="33dp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/battery_temperature_unit"
+                    android:textSize="33dp" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/temperatureTestResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:textSize="33dp" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Other Info. Layout -->
+
+    <LinearLayout
+        android:id="@+id/countdownLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusLayout"
+        android:orientation="horizontal" >
+
+
+         <TextView
+            android:id="@+id/battery_seconds_remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/general_seconds_remaining"
+            android:textSize="33dp" />
+
+
+        <TextView
+            android:id="@+id/timePrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="33dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/timePromptBase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_time_second"
+            android:textSize="33dp" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/warningPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countdownLayout"
+        android:textSize="33dp"
+        android:visibility="invisible" >
+    </TextView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/battery_submit"
+        android:textSize="40dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

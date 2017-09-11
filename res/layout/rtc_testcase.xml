@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dip"
+        android:layout_y="10dip"
+        android:text="@string/rtc_name"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/nameresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dip"
+        android:layout_y="10dip"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dip"
+        android:layout_y="110dip"
+        android:text="@string/rtc_date"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/dateresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dip"
+        android:layout_y="110dip"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dip"
+        android:layout_y="210dip"
+        android:text="@string/rtc_time"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/timeresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dip"
+        android:layout_y="210dip"
+        android:textSize="47dp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="357dip"
+        android:layout_y="310dip"
+        android:text="@string/rtc_submit"
+        android:textSize="47dp" >
+    </Button>
+
+</AbsoluteLayout>

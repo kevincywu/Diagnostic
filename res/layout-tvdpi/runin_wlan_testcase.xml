@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/runin_wifi_testcase_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dip"
+        android:text="@string/runin_wifi_test" />
+    <TextView
+        android:id="@+id/textView1"
+        android:textSize="50dip"
+        android:layout_below="@id/runin_wifi_testcase_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/runin_wifi_state" />
+    <TextView
+        android:id="@+id/textView2"
+        android:textSize="50dip"
+        android:layout_below="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/runin_wifi_AP" />
+    <TextView
+        android:id="@+id/textView3"
+        android:textSize="50dip"
+        android:layout_below="@id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/runin_wifi_RSSI" />
+    <TextView
+        android:id="@+id/textView4"
+        android:textSize="50dip"
+        android:layout_below="@id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/runin_wifi_test_result" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:textSize="40dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="onClick"
+            android:text="@string/runin_wifi_finish" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

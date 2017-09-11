@@ -1,0 +1,373 @@
+<resources>
+
+    <string name="app_name">Diagnostic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_pcba_panel">PCBA Diagnostic Test</string>
+    <string name="title_assy_panel">ASSY Diagnostic Test</string>
+    <string name="title_runin_panel">Runin Diagnostic Test</string>
+    <string name="title_gps_panel">GPS Diagnostic Test</string>
+    <string name="title_hotkey_panel">HotKey Diagnostic Test</string>
+    <string name="title_touch_panel">TouchPanel Diagnostic Test</string>
+    <string name="title_barcode_panel">BarCode Diagnostic Test</string>
+    <string name="title_sdcard_panel">SDcard Diagnostic Test</string>
+    <string name="title_rtc_panel">RTC Diagnostic Test</string>
+    <string name="title_battery_panel">Battery Diagnostic Test</string>
+    <string name="title_camera_panel">Camera Diagnostic Test</string>
+    <string name="title_compass_panel">Compass Diagnostic Test</string>
+    <string name="title_hdmi_panel">HDMI Diagnostic Test</string>
+    <string name="title_speaker_front_panel">Phone Speaker Diagnostic Test</string>
+    <string name="title_gsensor_panel">GSensor Diagnostic Test</string>
+    <string name="title_gyroscope_panel">Gyroscope Diagnostic Test</string>
+    <string name="title_flashlight_panel">FlashLight Diagnostic Test</string>
+    <string name="title_backlight_panel">Backlight Diagnostic Test</string>
+    <string name="title_motor_panel">Motor Diagnostic Test</string>
+    <string name="title_third_generation_panel">3G Diagnostic Test</string>
+    <string name="title_tgmodule_panel">3G Module Diagnostic Test</string>
+    <string name="title_lightsensor_panel">LightSensor Diagnostic Test</string>
+    <string name="title_bluetooth_panel">Bluetooth Diagnostic Test</string>
+    <string name="title_runin_battery_panel">Runin Battery Diagnostic Test</string>
+    <string name="title_runin_video_panel">Runin Video Diagnostic Test</string>
+    <string name="title_runin_end_panel">Runin End Diagnostic Test</string>
+    <string name="title_RuninVideo_panel">Runin Video Diagnostic Test</string>
+    <string name="title_RuninEnd_panel">Runin End Diagnostic Test</string>
+    <string name="title_audiofrontmic_panel">Audio Front MIC Diagnostic Test</string>
+    <string name="title_audiobackmic_panel">Audio Back MIC Diagnostic Test</string>
+    <string name="title_audiostereomic_panel">Audio Stereo MIC Diagnostic Test</string>
+    <string name="title_microphone_panel">Microphone Diagnostic Test</string>
+    <string name="title_phone_call_panel">Phone Call Diagnostic Test</string>
+
+    <!-- Generic String for Every Panel -->
+    <string name="submit">Submit</string>
+    <string name="general_fail">FAIL</string>
+    <string name="general_seconds_remaining">Remain:</string>
+
+    <!-- Main Panel -->
+    <string name="pcba_button">PCBA</string>
+    <string name="assy_button">ASSY</string>
+    <string name="runin_button">Runin</string>
+
+    <!-- PCBA Panel -->
+    <string name="exit">Exit</string>
+    <string name="stop">Stop</string>
+    <string name="log">Log</string>
+    <string name="prompt">Warning</string>
+    <string name="ok">OK</string>
+    <string name="barcode_yes">Test Barcode!  Barcode can not empty！</string>
+    <string name="auto">Auto</string>
+    <string name="clear">Clear</string>
+    <string name="user_choose">Choose</string>
+    <string name="show_result">Result</string>
+    <string name="start">Start</string>
+    <string name="outOrNot">Exit or not?</string>
+    <string name="checkbox_text_size">40dip</string>
+    <string name="NULL">NULL</string>
+    <string name="N_A">N/A</string>
+    <string name="version_num">version number : </string>
+    <string name="button">Button</string>
+    <string name="usb_test">USBtest</string>
+    <string name="show">show</string>
+
+    <!-- GPS Panel -->
+    <string name="gps_detect">Detect GPS .....</string>
+    <string name="gps_fail">FAIL</string>
+    <string name="gps_seconds_remaining">Remain:</string>
+    <string name="gps_second">s</string>
+
+    <!-- HotKey Panel -->
+    <string name="hotkey_note">Press hokey to test</string>
+    <string name="hotkey_volumn_up">Vol +：   </string>
+    <string name="hotkey_volumn_down">Vol -：   </string>
+    <string name="hotkey_under_test">NONE</string>
+    <string name="hotkey_submit">Submit</string>
+    <string name="volume_up">volume_up</string>
+    <string name="volume_down">volume_down</string>
+
+    <!-- Backlight Panel -->
+    <string name="backlight_note">Drag bar to test backlight</string>
+    <string name="backlight_pass">PASS</string>
+    <string name="backlight_fail">FAIL</string>
+
+    <!-- LCD Panel -->
+    <string name="lcd_next">Click</string>
+    <string name="lcd_title">LCD test result:</string>
+    <string name="lcd_pass">PASS</string>
+    <string name="lcd_fail">FAIL</string>
+    <string name="lcd_countdownTime">15s</string>
+    <string name="lcd_residue"></string>
+    <string name="lcd_second">s</string>
+
+    <!-- ScreenAround Panel -->
+    <string name="screen_around_allpass">All pass</string>
+    <string name="screen_around_retest">Re-try?</string>
+    <string name="screen_around_test_fail">FAIL</string>
+    <string name="screen_around_residue"></string>
+    <string name="screen_around_point"> dot</string>
+    <string name="screen_around_retry">【Re-try】</string>
+    <string name="screen_around_end">【End】</string>
+
+    <!-- Barcode Panel -->
+    <string name="barcode_title">BarCode:</string>
+    <string name="barcode_number_empty">Barcode Number must be not empty.</string>
+
+    <!-- SDcard Panel -->
+    <string name="sdcard_title">SDcardTest</string>
+    <string name="sdcard_test">Start</string>
+    <string name="sdcard_skip">Skip</string>
+    <string name="note_insert">Insert SD card</string>
+    <string name="note_no_sdcard">Can not detect SD card, insert and press test</string>
+    <string name="note_no_permission">SD card no R/W permission</string>
+    <string name="note_testing">Testing</string>
+    <string name="text_start">Please in </string>
+    <string name="text_end">s to insert SD card: </string>
+    <string name="sdcard_test_string">sdcard test</string>
+    <string name="sdcard_folder_path">%1$s/SDcardTest</string>
+    <string name="sdcard_file_path">%1$s/SDcardTest.txt</string>
+
+    <!-- RTC Panel -->
+    <string name="rtc_name">Name：</string>
+    <string name="rtc_date">Date：</string>
+    <string name="rtc_time">Time：</string>
+    <string name="rtc_submit">Submit</string>
+
+    <!-- Battery Panel -->
+    <string name="battery_timeout">Waiting for overtime!</string>
+    <string name="battery_time_second">s</string>
+    <!-- Plugged -->
+    <string name="battery_plugged">Plug：</string>
+    <string name="battery_plugged_noplugged">No plugging</string>
+    <string name="battery_plugged_usb">USB</string>
+    <string name="battery_plugged_ac">AC</string>
+    <!-- Health -->
+    <string name="battery_health">Health：</string>
+    <string name="battry_health_unknown">Unknown</string>
+    <string name="battry_health_good">Good</string>
+    <string name="battry_health_over_heat">Over heat</string>
+    <string name="battry_health_dead">Dead</string>
+    <string name="battry_health_over_voltage">Over voltage</string>
+    <string name="battry_health_unspecific_failure">Unspecific Failure</string>
+    <!-- Status -->
+    <string name="battery_status">Status:</string>
+    <string name="battery_status_charging">Charging</string>
+    <string name="battery_status_discharging">Discharging</string>
+    <string name="battery_status_full">Full</string>
+    <string name="battery_status_not_charging">Not charging</string>
+    <string name="battery_status_unknown">Unknown</string>
+    <!-- Level -->
+    <string name="battery_level">Level：</string>
+    <string name="battery_level_unit">%</string>
+    <!-- Current -->
+    <string name="battery_current">Current：</string>
+    <string name="battery_current_unit">mA</string>
+    <string name="gain_battery_current_path_fail">Get current path fail</string>
+    <!-- Voltage -->
+    <string name="battery_voltage">Voltage：</string>
+    <string name="battery_voltage_unit">V</string>
+    <!-- Temperature -->
+    <string name="battery_temperature">Temperature：</string>
+    <string name="battery_temperature_unit">℃</string>
+    <!-- Other -->
+    <string name="battery_sign">Plug in power supply!</string>
+    <string name="battery_submit">Submit</string>
+
+    <!-- Wifi_runin Panel -->
+    <string name="runin_wifi_fileNotExist">Log file not exist</string>
+    <string name="runin_wifi_fileNumberOver">Different log file</string>
+    <string name="runin_wifi_testResultFail">Result is fail</string>
+    <string name="runin_wifi_prompt">Warning: RunIn already tested,covering the log if continue</string>
+    <string name="runin_wifi_continueTest">Continue?</string>
+    <string name="runin_wifi_ensure">Yes</string>
+    <string name="runin_wifi_cancle">Cancle</string>
+    <string name="runin_wifi_test">runin wifi test</string>
+    <string name="runin_wifi_state">wifi state</string>
+    <string name="runin_wifi_AP">AP :</string>
+    <string name="runin_wifi_RSSI">RSSI :</string>
+    <string name="runin_wifi_test_result">Test Result</string>
+    <string name="runin_wifi_finish">Submit</string>
+    <string name="runin_wifi_openwifi_info">open wifi please wait</string>
+    <string name="runin_wifi_openinfo ">wifi opened</string>
+    <string name="runin_wifi_pass"> PASS</string>
+    <string name="runin_wifi_info">wifi is enabled</string>
+    <string name="runin_wifi_error_info">can not found AP</string>
+    <string name="runin_wifi_ap_info">AP strength too weak !</string>
+    <string name="runin_wifi_connect">connected the AP : </string>
+    <string name="runin_wifi_connect_error">connect error to the AP : </string>
+    <string name="runin_wifi_opening">wifi is opening</string>
+
+    <!-- Camera Panel -->
+    <string name="camera_str_take_picture">Back camera shot</string>
+    <string name="camera_main">Back camera shot</string>
+    <string name="camera_second">Front camera shot</string>
+    <string name="camera_switch">Switch camera</string>
+    <string name="camera_switch_error">Switch error</string>
+    <string name="camera_str_err_nosd">No SD card</string>
+    <string name="camera_back_pass">Back camera PASS</string>
+    <string name="camera_back_fail">Back camera FAIL</string>
+    <string name="camera_front_pass">Front camera PASS</string>
+    <string name="camera_front_fail">Front camera FAIL</string>
+    <string name="camera_str_warn_takepic">Take photo!</string>
+    <string name="camera_str_warn_judge">Judge the result!</string>
+    <string name="camera_pass">PASS</string>
+    <string name="camera_fail">FAIL</string>
+
+    <!-- Compass Panel -->
+    <string name="pass_compass">PASS</string>
+    <string name="fail_compass">FAIL</string>
+    <string name="ecompass">E-compass point to North</string>
+    <string name="nocompass">E-Compass Error</string>
+    <string name="ecompasstest">E-CompassTest</string>
+
+    <!-- HDMI Panel -->
+    <string name="hdmi_pass">PASS</string>
+    <string name="hdmi_pfail">Disaplay FAIL</string>
+    <string name="hdmi_vfail">Voice FAIL</string>
+    <string name="hdmi_pla">Play</string>
+    <string name="hdmi_pause">Pause</string>
+    <string name="hdmi_play">Playing......</string>
+    <string name="hdmi_stop">Stop.......</string>
+    <string name="hdmi_errinfo">Error!Re-try!</string>
+    <string name="hdmi_test">HDMI Test</string>
+
+    <!-- Speaker Front Panel -->
+    <string name="speaker_front_pass">PASS</string>
+    <string name="speaker_front_fail">Voice FAIL</string>
+    <string name="speaker_front_play">Play</string>
+    <string name="speaker_front_pause">Pause</string>
+    <string name="speaker_front_playing">Playing......</string>
+    <string name="speaker_front_stoping">Stop.......</string>
+    <string name="speaker_front_errinfo">Error!Re-try!</string>
+    <string name="speaker_front_test">Phone Speaker Test</string>
+    <string name="speaker_front_plzplayVoice">Click Play！！</string>
+    <string name="speaker_front_choose"> CHOOSE ONE </string>
+    <string name="speaker_front_c">C</string>
+    <string name="speaker_front_o">O</string>
+    <string name="speaker_front_p">P</string>
+    <string name="speaker_front_y">Y</string>
+    <string name="speaker_front_f">F</string>
+    <string name="speaker_front_j">J</string>
+    <string name="speaker_front_k">K</string>
+    <string name="speaker_front_l">L</string>
+
+    <!-- GSensor Panel -->
+    <string name="gsensor_xv">X : </string>
+    <string name="gsensor_yv">Y : </string>
+    <string name="gsensor_zv">Z : </string>
+    <string name="gsensor_app_title">Gsensor Test</string>
+    <string name="gsensor_pres">Rotate the device, FAIL after 30s</string>
+
+    <!-- Gyroscope Panel -->
+    <string name="gyroscope_sensor_name">mpu6050</string>
+    <string name="gyroscope_app_title">GyroscopeTest</string>
+    <string name="gyroscope_xv">X : </string>
+    <string name="gyroscope_yv">Y : </string>
+    <string name="gyroscope_zv">Z : </string>
+
+    <!-- FlashLight Panel -->
+    <string name="flashlight_open">Turn on</string>
+    <string name="flashlight_closs">Turn off</string>
+    <string name="flashlight_pass">PASS</string>
+    <string name="flashlight_fail">FAIL</string>
+
+    <!-- Motor Panel -->
+    <string name="motor_vibr">Press to test：</string>
+    <string name="motor_on">Turn on</string>
+    <string name="motor_off">Turn off</string>
+    <string name="motor_str_ok">Vibering</string>
+    <string name="motor_str_end">Stop vibering</string>
+    <string name="motor_title">Vibration Test is:</string>
+    <string name="motor_app_title">Motor Test</string>
+    <string name="motor_pass">PASS</string>
+    <string name="motor_fail">FAIL</string>
+
+    <!-- 3Gmodule Panel -->
+    <string name="tgmodule_pass">3G Module Pass !!!</string>
+    <string name="tgmodule_fail">3G Module Fail !!!</string>
+    <string name="tgmodule_test">Press to test：</string>
+    <string name="tgmodule_start">Start</string>
+    <string name="tgmodule_title">3G Module Test is:</string>
+    <string name="tgmodule_app_title">3G Module Test</string>
+    <string name="tgmodule_count_down_text">Start testing after：</string>
+
+    <!-- LightSensor Panel -->
+    <string name="lightsensor_app_title">LightSensor Test</string>
+    <string name="lightsensor_vaule">Light sensor vaule：</string>
+    <string name="lightsensor_info">Illuminate LightSensor and Block LightSensor</string>
+    <string name="lightsensor_max">Light(Max)：</string>
+    <string name="lightsensor_min">Dark(Min)：</string>
+    <string name="lightsensor_submit">Submit</string>
+
+    <!-- Runin battery video end Panel -->
+    <string name="runin_battery_health">可以充电</string>
+    <string name="runin_battery_ill">不可以充电</string>
+    <string name="runin_battery_level">电量:</string>
+    <string name="runin_battery_adapter">已经插上</string>
+    <string name="runin_battery_disChargingCurrent">放电电流:</string>
+    <string name="runin_battery_chargingCurrent">充电电流:</string>
+    <string name="runin_battery_disCharging">正在放电</string>
+    <string name="runin_battery_charging">正在充电</string>
+    <string name="runin_battery_current">电流:</string>
+    <string name="runin_battery_unAdapter">没有插上adapter</string>
+    <string name="runin_battery_voltage">电压:</string>
+    <string name="runin_battery_temperature">温度:</string>
+    <string name="runin_battery_submit">关闭</string>
+    <string name="runin_battery_sign">请插上电源！</string>
+    <string name="runin_battery_sign1">电池测试失败！！！！！！！！！！！！！</string>
+    <string name="runin_battery_usb">AC/USB:</string>
+    <string name="runin_video">Video : </string>
+
+    <!-- Audio frontMIC and backMIC panel -->
+    <string name="audio_start">Record</string>
+    <string name="audio_stop">Stop</string>
+    <string name="audio_play">Play</string>
+    <string name="audio_pass">PASS</string>
+    <string name="audio_fail">FAIL</string>
+    <string name="audio_front_OnCompletionListener">Finished</string>
+    <string name="audio_front_errinfo">Error!Re-try!</string>
+    <string name="audio_front_not_file">No record file</string>
+    <string name="audio_front_record_stop">Stop</string>
+    <string name="audio_front_audio_play">Play</string>
+    <string name="audio_front_record_start">Record</string>
+    <string name="audio_back_OnCompletionListener">Finished</string>
+    <string name="audio_back_errinfo">Error!Re-try!</string>
+    <string name="audio_back_not_file">No record file</string>
+    <string name="audio_back_record_stop">Stop</string>
+    <string name="audio_back_audio_play">Play</string>
+    <string name="audio_back_record_start">Record</string>
+
+    <!-- Microphone panel -->
+    <string name="microphone_start">Record</string>
+    <string name="microphone_stop">Stop</string>
+    <string name="microphone_play">Play</string>
+    <string name="microphone_pass">PASS</string>
+    <string name="microphone_fail">FAIL</string>
+    <string name="microphone_OnCompletionListener">Finished</string>
+    <string name="microphone_errinfo">Error!Re-try!</string>
+    <string name="microphone_not_file">No record file</string>
+    <string name="microphone_record_stop">Stop</string>
+    <string name="microphone_audio_play">Play</string>
+    <string name="microphone_record_start">Recording</string>
+    <string name="microphone_volume_too_low">Volume is too low</string>
+    <string name="microphone_volume_is_normal">Volume is normal</string>
+
+    <!-- Audio stereoMIC panel -->
+    <string name="audio_stereo_play">Play</string>
+    <string name="audio_stereo_pause">Pause</string>
+    <string name="audio_stereo_soundfail">SoundFail</string>
+    <string name="audio_stereo_RightOne">Right One -></string>
+    <string name="audio_stereo_and">and</string>
+    <string name="audio_stereo_LeftOne">Left One -></string>
+    <string name="audio_stereo_C">C</string>
+    <string name="audio_stereo_O">O</string>
+    <string name="audio_stereo_P">P</string>
+    <string name="audio_stereo_Y">Y</string>
+    <string name="audio_stereo_F">F</string>
+    <string name="audio_stereo_J">J</string>
+    <string name="audio_stereo_K">K</string>
+    <string name="audio_stereo_L">L</string>
+
+    <!-- Phone call panel -->
+    <string name="phone_call_call_button">CALL</string>
+    <string name="phone_call_pass">PASS</string>
+    <string name="phone_call_fail">FAIL</string>
+    <string name="phone_call_call_title">Press to call：</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="supported_devices">
+        <item >generic</item>       <!--The fixed order for testing in the emulator -->
+        <item >n912_wifi</item>
+        <item >n912_3g</item>
+        <item >n912_forerunner</item>
+        <item >vit-t4000</item>
+        <item >Primo 75</item>
+        <item >Primo_76</item>
+        <item >Primo76</item>
+        <item >N728</item>
+        <item >N915</item>
+        <item >VIT T4100</item>
+        <item >VIT T2000</item>
+        <item >N821</item>
+        <item >N71J</item>
+        <item >N71L</item>
+        <item >N823</item>
+        <item >polaris-kurio7</item>
+    </string-array>
+</resources>

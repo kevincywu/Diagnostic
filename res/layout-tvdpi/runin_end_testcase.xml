@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/runin_end_testcase_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_runin_end_panel"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/levelValueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/runin_end_testcase_title"
+        android:layout_centerHorizontal="true"
+        android:textSize="250dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/warningPromptView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/levelValueView"
+        android:layout_centerHorizontal="true"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/level1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/warningPromptView"
+        android:layout_toLeftOf="@id/levelValueView"
+        android:text="@string/runin_battery_level"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/levelResultView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/warningPromptView"
+        android:layout_toRightOf="@id/levelValueView"
+        android:textSize="47dp" >
+    </TextView>
+
+</RelativeLayout>

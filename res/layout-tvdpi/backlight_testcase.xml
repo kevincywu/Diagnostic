@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/backlight_testcase_tile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_backlight_panel"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/backlight_testcase_tile"
+        android:layout_marginTop="50dip"
+        android:text="@string/backlight_note"
+        android:textSize="50dp" />
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="600dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:max="100"
+        android:progress="50" />
+
+    <Button
+        android:id="@+id/backlight_pass"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/backlight_pass"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/backlight_fail"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/backlight_fail"
+        android:textSize="50dp" />
+
+</RelativeLayout>

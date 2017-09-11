@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_hdmi_panel"
+        android:textSize="35dip" />
+
+    <LinearLayout
+        android:id="@+id/linlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:text="@string/hdmi_pla"
+            android:textSize="50dip" >
+        </Button>
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_marginLeft="50dip"
+            android:text="@string/hdmi_pause"
+            android:textSize="50dip" >
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linlay"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dip" />
+
+    <Button
+        android:id="@+id/pass"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/hdmi_pass"
+        android:textSize="50dip" >
+    </Button>
+
+    <Button
+        android:id="@+id/vfail"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dip"
+        android:text="@string/hdmi_vfail"
+        android:textSize="30dip" >
+    </Button>
+
+    <Button
+        android:id="@+id/pfail"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30dip"
+        android:layout_toLeftOf="@+id/vfail"
+        android:text="@string/hdmi_pfail"
+        android:textSize="30dip" >
+    </Button>
+
+</RelativeLayout>

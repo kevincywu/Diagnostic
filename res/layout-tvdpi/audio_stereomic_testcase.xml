@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/audiostereomic_testcase_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_audiostereomic_panel"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:id="@+id/audio_stereo_linlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/audiostereomic_testcase_title"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/audio_stereo_play"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:text="@string/audio_stereo_play"
+            android:textSize="50dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_pause"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_marginLeft="30dip"
+            android:text="@string/audio_stereo_pause"
+            android:textSize="50dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_soundfail"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_marginLeft="30dip"
+            android:text="@string/audio_stereo_soundfail"
+            android:textSize="35dip" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/audio_stereo_choice_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/audio_stereo_linlay"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:id="@+id/audio_stereo_rightone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="34dp"
+            android:text="@string/audio_stereo_RightOne"
+            android:textSize="25dip" />
+
+        <TextView
+            android:id="@+id/audio_stereo_and"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/audio_stereo_rightone"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/audio_stereo_and"
+            android:textSize="25dip" />
+
+        <TextView
+            android:id="@+id/audio_stereo_leftone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/audio_stereo_and"
+            android:layout_marginTop="10dp"
+            android:text="@string/audio_stereo_LeftOne"
+            android:textSize="25dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_right_key_C"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_alignBaseline="@+id/audio_stereo_rightone"
+            android:layout_marginLeft="30dip"
+            android:layout_toRightOf="@+id/audio_stereo_rightone"
+            android:text="@string/audio_stereo_C"
+            android:textSize="35dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_right_key_O"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_alignBaseline="@+id/audio_stereo_rightone"
+            android:layout_marginLeft="30dip"
+            android:layout_toRightOf="@+id/audio_stereo_right_key_C"
+            android:text="@string/audio_stereo_O"
+            android:textSize="35dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_right_key_P"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_alignBaseline="@+id/audio_stereo_rightone"
+            android:layout_marginLeft="30dip"
+            android:layout_toRightOf="@+id/audio_stereo_right_key_O"
+            android:text="@string/audio_stereo_P"
+            android:textSize="35dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_right_key_Y"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_alignBaseline="@+id/audio_stereo_rightone"
+            android:layout_marginLeft="30dip"
+            android:layout_toRightOf="@+id/audio_stereo_right_key_P"
+            android:text="@string/audio_stereo_Y"
+            android:textSize="35dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_left_key_F"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_alignBaseline="@+id/audio_stereo_leftone"
+            android:layout_alignLeft="@+id/audio_stereo_right_key_C"
+            android:text="@string/audio_stereo_F"
+            android:textSize="35dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_left_key_J"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_alignBaseline="@+id/audio_stereo_leftone"
+            android:layout_alignLeft="@+id/audio_stereo_right_key_O"
+            android:text="@string/audio_stereo_J"
+            android:textSize="35dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_left_key_K"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_alignBaseline="@+id/audio_stereo_leftone"
+            android:layout_alignLeft="@+id/audio_stereo_right_key_P"
+            android:text="@string/audio_stereo_K"
+            android:textSize="35dip" />
+
+        <Button
+            android:id="@+id/audio_stereo_left_key_L"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_alignBaseline="@+id/audio_stereo_leftone"
+            android:layout_alignLeft="@+id/audio_stereo_right_key_Y"
+            android:text="@string/audio_stereo_L"
+            android:textSize="35dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

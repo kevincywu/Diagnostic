@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/camera_testcase_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_camera_panel"
+        android:textSize="35sp" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/camera_testcase_title"
+        android:layout_centerVertical="true"
+        android:visibility="visible" >
+    </SurfaceView>
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/camera_testcase_title"
+        android:layout_centerVertical="true"
+        android:background="@drawable/frame"
+        android:visibility="visible" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/camera_testcase_title"
+        android:layout_centerVertical="true"
+        android:background="@drawable/blue" />
+
+    <Button
+        android:id="@+id/cameraPass"
+        android:layout_width="127dip"
+        android:layout_height="70dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/camera_pass" >
+    </Button>
+
+    <Button
+        android:id="@+id/takePic"
+        android:layout_width="127dip"
+        android:layout_height="70dip"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/cameraPass"
+        android:text="@string/camera_str_take_picture" >
+    </Button>
+
+    <Button
+        android:id="@+id/cameraFail"
+        android:layout_width="127dip"
+        android:layout_height="70dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/camera_fail" >
+    </Button>
+
+    <Button
+        android:id="@+id/cameraSwitch"
+        android:layout_width="127dip"
+        android:layout_height="70dip"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/cameraFail"
+        android:text="@string/camera_switch" >
+    </Button>
+
+    <TextView
+        android:id="@+id/warningTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/surfaceView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@drawable/white" />
+
+</RelativeLayout>

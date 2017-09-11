@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_speaker_front_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_speaker_front_panel"
+        android:textSize="35dip" />
+
+    <LinearLayout
+        android:id="@+id/linlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/speaker_front_stop"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignBaseline="@+id/speaker_front_play"
+        android:layout_alignBottom="@+id/speaker_front_play"
+        android:layout_centerHorizontal="true"
+        android:text="@string/speaker_front_pause"
+        android:textSize="50dip" />
+
+    <Button
+        android:id="@+id/speaker_front_fail"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/speaker_front_stop"
+        android:text="@string/speaker_front_fail"
+        android:textSize="40dip" />
+
+    <TextView
+        android:id="@+id/speaker_front_text"
+        android:layout_width="wrap_content"
+        android:layout_height="80dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:textSize="30dip" />
+
+    <TextView
+        android:id="@+id/speaker_front_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/speaker_front_stop"
+        android:gravity="center_horizontal"
+        android:text="@string/speaker_front_choose"
+        android:textSize="40dip" />
+
+    <Button
+        android:id="@+id/speaker_front_k"
+        android:layout_width="120dip"
+        android:layout_height="100dip"
+        android:layout_alignLeft="@+id/speaker_front_p"
+        android:layout_below="@+id/speaker_front_p"
+        android:text="@string/speaker_front_k" />
+
+    <Button
+        android:id="@+id/speaker_front_l"
+        android:layout_width="120dip"
+        android:layout_height="100dip"
+        android:layout_alignLeft="@+id/speaker_front_y"
+        android:layout_below="@+id/speaker_front_p"
+        android:text="@string/speaker_front_l" />
+
+    <Button
+        android:id="@+id/speaker_front_f"
+        android:layout_width="120dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/speaker_front_text"
+        android:layout_alignLeft="@+id/speaker_front_c"
+        android:text="@string/speaker_front_f" />
+
+    <Button
+        android:id="@+id/speaker_front_o"
+        android:layout_width="120dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/speaker_front_j"
+        android:layout_toLeftOf="@+id/linlay"
+        android:text="@string/speaker_front_o" />
+
+    <Button
+        android:id="@+id/speaker_front_j"
+        android:layout_width="120dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/speaker_front_text"
+        android:layout_toLeftOf="@+id/linlay"
+        android:text="@string/speaker_front_j" />
+
+    <Button
+        android:id="@+id/speaker_front_p"
+        android:layout_width="120dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/speaker_front_j"
+        android:layout_alignLeft="@+id/linlay"
+        android:text="@string/speaker_front_p" />
+
+    <Button
+        android:id="@+id/speaker_front_c"
+        android:layout_width="120dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/speaker_front_j"
+        android:layout_toLeftOf="@+id/speaker_front_o"
+        android:text="@string/speaker_front_c" />
+
+    <Button
+        android:id="@+id/speaker_front_y"
+        android:layout_width="120dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/speaker_front_l"
+        android:layout_toRightOf="@+id/speaker_front_k"
+        android:text="@string/speaker_front_y" />
+
+    <Button
+        android:id="@+id/speaker_front_play"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_speaker_front_panel"
+        android:text="@string/speaker_front_play"
+        android:textSize="50dip" />
+
+</RelativeLayout>

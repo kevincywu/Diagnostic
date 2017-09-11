@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diagnostic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_pcba_panel">PCBA Diagnostic Test</string>
+    <string name="title_assy_panel">ASSY Diagnostic Test</string>
+    <string name="title_runin_panel">Runin Diagnostic Test</string>
+    <string name="title_gps_panel">GPS Diagnostic Test</string>
+    <string name="title_hotkey_panel">HotKey Diagnostic Test</string>
+    <string name="title_touch_panel">TouchPanel Diagnostic Test</string>
+    <string name="title_barcode_panel">BarCode Diagnostic Test</string>
+    <string name="title_sdcard_panel">SDcard Diagnostic Test</string>
+    <string name="title_rtc_panel">RTC Diagnostic Test</string>
+    <string name="title_battery_panel">Battery Diagnostic Test</string>
+    <string name="title_camera_panel">Camera Diagnostic Test</string>
+    <string name="title_compass_panel">Compass Diagnostic Test</string>
+    <string name="title_hdmi_panel">HDMI Diagnostic Test</string>
+    <string name="title_speaker_front_panel">Phone Speaker Diagnostic Test</string>
+    <string name="title_gsensor_panel">GSensor Diagnostic Test</string>
+    <string name="title_gyroscope_panel">Gyroscope Diagnostic Test</string>
+    <string name="title_flashlight_panel">FlashLight Diagnostic Test</string>
+    <string name="title_backlight_panel">Backlight Diagnostic Test</string>
+    <string name="title_motor_panel">Motor Diagnostic Test</string>
+    <string name="title_third_generation_panel">3G Diagnostic Test</string>
+    <string name="title_tgmodule_panel">3G Module Diagnostic Test</string>
+    <string name="title_lightsensor_panel">LightSensor Diagnostic Test</string>
+    <string name="title_bluetooth_panel">Bluetooth Diagnostic Test</string>
+    <string name="title_runin_battery_panel">Runin Battery Diagnostic Test</string>
+    <string name="title_runin_video_panel">Runin Video Diagnostic Test</string>
+    <string name="title_runin_end_panel">Runin End Diagnostic Test</string>
+    <string name="title_RuninVideo_panel">Runin Video Diagnostic Test</string>
+    <string name="title_RuninEnd_panel">Runin End Diagnostic Test</string>
+    <string name="title_audiofrontmic_panel">Audio Front MIC Diagnostic Test</string>
+    <string name="title_audiobackmic_panel">Audio Back MIC Diagnostic Test</string>
+    <string name="title_phone_call_panel">Phone Call Diagnostic Test</string>
+
+    <!-- Generic String for Every Panel -->
+    <string name="submit">提交</string>
+    <string name="general_fail">失敗</string>
+    <string name="general_seconds_remaining">剩余秒数:</string>
+
+    <!-- Main Panel -->
+    <string name="pcba_button">PCBA</string>
+    <string name="assy_button">ASSY</string>
+    <string name="runin_button">Runin</string>
+
+    <!-- PCBA Panel -->
+    <string name="exit">退出</string>
+    <string name="stop">暂停</string>
+    <string name="log">记录</string>
+    <string name="prompt">提示信息</string>
+    <string name="ok">确定</string>
+    <string name="barcode_yes">请您测试Barcode!  Barcode输入值不能为空！</string>
+    <string name="auto">自动</string>
+    <string name="clear">清除</string>
+    <string name="user_choose">选择</string>
+    <string name="show_result">結果</string>
+    <string name="start">开始</string>
+    <string name="outOrNot">确认退出吗？</string>
+    <string name="checkbox_text_size">40dip</string>
+    <string name="NULL">NULL</string>
+    <string name="N_A">N/A</string>
+    <string name="version_num">version number : </string>
+    <string name="button">Button</string>
+    <string name="usb_test">USBtest</string>
+    <string name="show">show</string>
+
+    <!-- GPS Panel -->
+    <string name="gps_detect">侦测 GPS .....</string>
+    <string name="gps_fail">失敗</string>
+    <string name="gps_seconds_remaining">剩余秒数:</string>
+    <string name="gps_second">s</string>
+
+    <!-- HotKey Panel -->
+    <string name="hotkey_note">请按下相应热键进行测试</string>
+    <string name="hotkey_volumn_up">音量增：   </string>
+    <string name="hotkey_volumn_down">音量减：   </string>
+    <string name="hotkey_under_test">待测</string>
+    <string name="hotkey_submit">提交</string>
+    <string name="volume_up">volume_up</string>
+    <string name="volume_down">volume_down</string>
+
+    <!-- Backlight Panel -->
+    <string name="backlight_note">测试LCD明暗度,左右托移滑块</string>
+    <string name="backlight_pass">通过</string>
+    <string name="backlight_fail">失敗</string>
+
+    <!-- LCD Panel -->
+    <string name="lcd_next">点击</string>
+    <string name="lcd_title">LCD 亮点坏点测试结果:</string>
+    <string name="lcd_pass">通过</string>
+    <string name="lcd_fail">失敗</string>
+    <string name="lcd_countdownTime">還剩15S</string>
+    <string name="lcd_residue">還剩</string>
+    <string name="lcd_second">秒</string>
+
+    <!-- ScreenAround Panel -->
+    <string name="screen_around_allpass">全部通过</string>
+    <string name="screen_around_retest">重新测一次?</string>
+    <string name="screen_around_test_fail">测试失败</string>
+    <string name="screen_around_residue">剩余 </string>
+    <string name="screen_around_point"> 点</string>
+    <string name="screen_around_retry">【重试】</string>
+    <string name="screen_around_end">【结束】</string>
+
+    <!-- Barcode Panel -->
+    <string name="barcode_title">BarCode:</string>
+    <string name="barcode_number_empty">Barcode Number must be not empty.</string>
+
+    <!-- SDcard Panel -->
+    <string name="sdcard_title">SDcardTest</string>
+    <string name="sdcard_test">开始测试</string>
+    <string name="sdcard_skip">跳过</string>
+    <string name="note_insert">插入SD卡</string>
+    <string name="note_no_sdcard">未检测到SD卡，插卡后点击‘测试’按钮</string>
+    <string name="note_no_permission">SD卡无读写权限</string>
+    <string name="note_testing">正在测试，请等待</string>
+    <string name="text_start">請在</string>
+    <string name="text_end">s內插入sd卡: </string>
+    <string name="sdcard_test_string">sdcard test</string>
+    <string name="sdcard_folder_path">%1$s/SDcardTest</string>
+    <string name="sdcard_file_path">%1$s/SDcardTest.txt</string>
+
+    <!-- RTC Panel -->
+    <string name="rtc_name">名字：</string>
+    <string name="rtc_date">日期：</string>
+    <string name="rtc_time">时间：</string>
+    <string name="rtc_submit">提交</string>
+
+    <!-- Battery Panel -->
+    <string name="battery_timeout">Waiting for overtime!</string>
+    <string name="battery_time_second">s</string>
+    <!-- Plugged -->
+    <string name="battery_plugged">电源：</string>
+    <string name="battery_plugged_noplugged">没有插上电源</string>
+    <string name="battery_plugged_usb">已插上USB</string>
+    <string name="battery_plugged_ac">已插上AC</string>
+    <!-- Health -->
+    <string name="battery_health">健康：</string>
+    <string name="battry_health_unknown">未知状态</string>
+    <string name="battry_health_good">良好</string>
+    <string name="battry_health_over_heat">过热</string>
+    <string name="battry_health_dead">损坏</string>
+    <string name="battry_health_over_voltage">电压过大</string>
+    <string name="battry_health_unspecific_failure">未知错误</string>
+    <!-- Status -->
+    <string name="battery_status">状态：</string>
+    <string name="battery_status_charging">充电中</string>
+    <string name="battery_status_discharging">放电中</string>
+    <string name="battery_status_full">电池已满</string>
+    <string name="battery_status_not_charging">未充电</string>
+    <string name="battery_status_unknown">未知状态</string>
+    <!-- Level -->
+    <string name="battery_level">电量：</string>
+    <string name="battery_level_unit">%</string>
+    <!-- Current -->
+    <string name="battery_current">电流：</string>
+    <string name="battery_current_unit">mA</string>
+    <string name="gain_battery_current_path_fail">读取电流失败</string>
+    <!-- Voltage -->
+    <string name="battery_voltage">电压：</string>
+    <string name="battery_voltage_unit">V</string>
+    <!-- Temperature -->
+    <string name="battery_temperature">温度：</string>
+    <string name="battery_temperature_unit">℃</string>
+    <!-- Other -->
+    <string name="battery_sign">请插上电源!</string>
+    <string name="battery_submit">提交</string>
+
+    <!-- Wifi_runin Panel -->
+    <string name="runin_wifi_fileNotExist">测试log文档找不到</string>
+    <string name="runin_wifi_fileNumberOver">有不同测试log文档</string>
+    <string name="runin_wifi_testResultFail">测试结果为Fail</string>
+    <string name="runin_wifi_prompt">提示: RunIn 已经测试过了,如果继续会覆盖之前的log档案</string>
+    <string name="runin_wifi_continueTest">确认继续测试?</string>
+    <string name="runin_wifi_ensure">确定</string>
+    <string name="runin_wifi_cancle">取消</string>
+    <string name="runin_wifi_test">runin wifi test</string>
+    <string name="runin_wifi_state">wifi state</string>
+    <string name="runin_wifi_AP">AP :</string>
+    <string name="runin_wifi_RSSI">RSSI :</string>
+    <string name="runin_wifi_test_result">Test Result</string>
+    <string name="runin_wifi_finish">提交</string>
+    <string name="runin_wifi_openwifi_info">open wifi please wait</string>
+    <string name="runin_wifi_openinfo ">wifi opened</string>
+    <string name="runin_wifi_pass"> PASS</string>
+    <string name="runin_wifi_info">wifi is enabled</string>
+    <string name="runin_wifi_error_info">can not found AP</string>
+    <string name="runin_wifi_ap_info">AP strength too weak !</string>
+    <string name="runin_wifi_connect">connected the AP : </string>
+    <string name="runin_wifi_connect_error">connect error to the AP : </string>
+    <string name="runin_wifi_opening">wifi is opening</string>
+
+    <!-- Camera Panel -->
+    <string name="camera_str_take_picture">后摄像头拍照</string>
+    <string name="camera_main">后摄像头拍照</string>
+    <string name="camera_second">前摄像头拍照</string>
+    <string name="camera_switch">转换摄像头</string>
+    <string name="camera_switch_error">转换摄像头错误</string>
+    <string name="camera_str_err_nosd">※未安裝SD記憶卡※</string>
+    <string name="camera_back_pass">后摄像头PASS</string>
+    <string name="camera_back_fail">后摄像头FAIL</string>
+    <string name="camera_front_pass">前摄像头PASS</string>
+    <string name="camera_front_fail">前摄像头FAIL</string>
+    <string name="camera_str_warn_takepic">请先拍照</string>
+    <string name="camera_str_warn_judge">判断结果再进行下一步</string>
+    <string name="camera_pass">PASS</string>
+    <string name="camera_fail">FAIL</string>
+
+    <!-- Compass Panel -->
+    <string name="pass_compass">通过</string>
+    <string name="fail_compass">失败</string>
+    <string name="ecompass">检测指针方向是否指向北～</string>
+    <string name="nocompass">Compass 有故障，请检查～</string>
+    <string name="ecompasstest">E-CompassTest</string>
+
+    <!-- HDMI Panel -->
+    <string name="hdmi_pass">通过</string>
+    <string name="hdmi_pfail">图像失败</string>
+    <string name="hdmi_vfail">声音失败</string>
+    <string name="hdmi_pla">播放</string>
+    <string name="hdmi_pause">暂停</string>
+    <string name="hdmi_play">正在播放音乐......</string>
+    <string name="hdmi_stop">暂停播放.......</string>
+    <string name="hdmi_errinfo">异常～～！！请重新测试～～！</string>
+    <string name="hdmi_test">HDMI Test</string>
+
+    <!-- Speaker Front Panel -->
+    <string name="speaker_front_pass">通過</string>
+    <string name="speaker_front_fail">聲音失敗</string>
+    <string name="speaker_front_play">播放</string>
+    <string name="speaker_front_pause">暫停</string>
+    <string name="speaker_front_playing">正在播放音樂......</string>
+    <string name="speaker_front_stoping">暫停播放.......</string>
+    <string name="speaker_front_errinfo">異常！！請重新測試！</string>
+    <string name="speaker_front_test">Phone Speaker Test</string>
+    <string name="speaker_front_plzplayVoice">請點擊播放！！</string>
+    <string name="speaker_front_choose"> 選取字母 </string>
+    <string name="speaker_front_c">C</string>
+    <string name="speaker_front_o">O</string>
+    <string name="speaker_front_p">P</string>
+    <string name="speaker_front_y">Y</string>
+    <string name="speaker_front_f">F</string>
+    <string name="speaker_front_j">J</string>
+    <string name="speaker_front_k">K</string>
+    <string name="speaker_front_l">L</string>
+
+    <!-- GSensor Panel -->
+    <string name="gsensor_xv">X : </string>
+    <string name="gsensor_yv">Y : </string>
+    <string name="gsensor_zv">Z : </string>
+    <string name="gsensor_app_title">Gsensor Test</string>
+    <string name="gsensor_pres">请翻转机器进行测试～～30s无反应自动Fail</string>
+
+    <!-- Gyroscope Panel -->
+    <string name="gyroscope_sensor_name">mpu6050</string>
+    <string name="gyroscope_app_title">GyroscopeTest</string>
+    <string name="gyroscope_xv">X : </string>
+    <string name="gyroscope_yv">Y : </string>
+    <string name="gyroscope_zv">Z : </string>
+
+    <!-- FlashLight Panel -->
+    <string name="flashlight_open">开</string>
+    <string name="flashlight_closs">关</string>
+    <string name="flashlight_pass">PASS</string>
+    <string name="flashlight_fail">FAIL</string>
+
+    <!-- Motor Panel -->
+    <string name="motor_vibr">按此键开始测试：</string>
+    <string name="motor_on">开震动</string>
+    <string name="motor_off">关震动</string>
+    <string name="motor_str_ok">执行震动中</string>
+    <string name="motor_str_end">震动结束</string>
+    <string name="motor_title">Vibration Test is:</string>
+    <string name="motor_app_title">Motor Test</string>
+    <string name="motor_pass">通過</string>
+    <string name="motor_fail">失敗</string>
+
+    <!-- 3Gmodule Panel -->
+    <string name="tgmodule_pass">3G Module Pass !!!</string>
+    <string name="tgmodule_fail">3G Module Fail !!!</string>
+    <string name="tgmodule_test">按此键开始测试：</string>
+    <string name="tgmodule_start">开始测试</string>
+    <string name="tgmodule_title">3G Module Test is:</string>
+    <string name="tgmodule_app_title">3G Module Test</string>
+    <string name="tgmodule_count_down_text">倒數完畢開始測試：</string>
+
+    <!-- LightSensor Panel -->
+    <string name="lightsensor_app_title">LightSensor Test</string>
+    <string name="lightsensor_vaule">目前的亮度值(Vaule)：</string>
+    <string name="lightsensor_info">请用灯光照射LightSensor和遮住LightSensor分别检测</string>
+    <string name="lightsensor_max">亮(Max)：</string>
+    <string name="lightsensor_min">暗(Min)：</string>
+    <string name="lightsensor_submit">判断Pass或Fail</string>
+
+    <!-- Runin battery video end Panel -->
+    <string name="runin_battery_health">可以充电</string>
+    <string name="runin_battery_ill">不可以充电</string>
+    <string name="runin_battery_level">电量:</string>
+    <string name="runin_battery_adapter">已经插上</string>
+    <string name="runin_battery_disChargingCurrent">放电电流:</string>
+    <string name="runin_battery_chargingCurrent">充电电流:</string>
+    <string name="runin_battery_disCharging">正在放电</string>
+    <string name="runin_battery_charging">正在充电</string>
+    <string name="runin_battery_current">电流:</string>
+    <string name="runin_battery_unAdapter">没有插上adapter</string>
+    <string name="runin_battery_voltage">电压:</string>
+    <string name="runin_battery_temperature">温度:</string>
+    <string name="runin_battery_submit">关闭</string>
+    <string name="runin_battery_sign">请插上电源！</string>
+    <string name="runin_battery_sign1">电池测试失败！！！！！！！！！！！！！</string>
+    <string name="runin_battery_usb">AC/USB:</string>
+    <string name="runin_video">Video : </string>
+
+    <!-- Audio frontMIC and backMIC panel -->
+    <string name="audio_start">录音</string>
+    <string name="audio_stop">停止录音</string>
+    <string name="audio_play">播放</string>
+    <string name="audio_pass">通过</string>
+    <string name="audio_fail">失败</string>
+    <string name="audio_front_OnCompletionListener">播放完毕</string>
+    <string name="audio_front_errinfo">异常～～！！请重新测试～～！</string>
+    <string name="audio_front_not_file">没有录音文件，请开始录音。</string>
+    <string name="audio_front_record_stop">录音停止</string>
+    <string name="audio_front_audio_play">播放录音</string>
+    <string name="audio_front_record_start">开始录音</string>
+    <string name="audio_back_OnCompletionListener">播放完毕</string>
+    <string name="audio_back_errinfo">异常～～！！请重新测试～～！</string>
+    <string name="audio_back_not_file">没有录音文件，请开始录音。</string>
+    <string name="audio_back_record_stop">录音停止</string>
+    <string name="audio_back_audio_play">播放录音</string>
+    <string name="audio_back_record_start">开始录音</string>
+
+    <!-- Microphone panel -->
+    <string name="microphone_start">录音</string>
+    <string name="microphone_stop">停止录音</string>
+    <string name="microphone_play">播放</string>
+    <string name="microphone_pass">通过</string>
+    <string name="microphone_fail">失败</string>
+    <string name="microphone_OnCompletionListener">播放完毕</string>
+    <string name="microphone_errinfo">异常～～！！请重新测试～～！</string>
+    <string name="microphone_not_file">没有录音文件，请开始录音。</string>
+    <string name="microphone_record_stop">录音停止</string>
+    <string name="microphone_audio_play">播放录音</string>
+    <string name="microphone_record_start">开始录音</string>
+    <string name="microphone_volume_too_low">录音音量太小</string>
+    <string name="microphone_volume_is_normal">录音音量正常</string>
+
+    <!-- Audio stereoMIC panel -->
+    <string name="audio_stereo_play">播放</string>
+    <string name="audio_stereo_pause">暂停</string>
+    <string name="audio_stereo_soundfail">声音失败</string>
+    <string name="audio_stereo_RightOne">Right One -></string>
+    <string name="audio_stereo_and">and</string>
+    <string name="audio_stereo_LeftOne">Left One -></string>
+    <string name="audio_stereo_C">C</string>
+    <string name="audio_stereo_O">O</string>
+    <string name="audio_stereo_P">P</string>
+    <string name="audio_stereo_Y">Y</string>
+    <string name="audio_stereo_F">F</string>
+    <string name="audio_stereo_J">J</string>
+    <string name="audio_stereo_K">K</string>
+    <string name="audio_stereo_L">L</string>
+
+    <!-- Phone call panel -->
+    <string name="phone_call_call_button">CALL</string>
+    <string name="phone_call_pass">通过</string>
+    <string name="phone_call_fail">失败</string>
+    <string name="phone_call_call_title">按此鍵進行撥打：</string>
+
+</resources>

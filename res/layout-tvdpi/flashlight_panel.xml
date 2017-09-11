@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_alignParentTop="true"
+        android:text="@string/flashlight_open"
+        android:textSize="50dip" />
+
+    <Button
+        android:id="@+id/closs"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:text="@string/flashlight_closs"
+        android:textSize="50dip" />
+
+    <Button
+        android:id="@+id/fail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/pass"
+        android:layout_marginBottom="40dp"
+        android:text="@string/flashlight_fail" />
+
+    <Button
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/closs"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="21dp"
+        android:text="@string/flashlight_pass" />
+
+</RelativeLayout>

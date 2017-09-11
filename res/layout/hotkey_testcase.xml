@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/hotkey_testcase_tile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_hotkey_panel"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/hotkey_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hotkey_testcase_tile"
+        android:layout_marginTop="50dip"
+        android:text="@string/hotkey_note"
+        android:textColor="#00EE00"
+        android:textSize="50dp" />
+
+    <!-- Hotkey test item and result -->
+
+    <TextView
+        android:id="@+id/volumn_up_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/hotkey_view"
+        android:text="@string/hotkey_volumn_up"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/volumn_up_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hotkey_view"
+        android:layout_toRightOf="@id/volumn_up_view"
+        android:text="@string/hotkey_under_test"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/volumn_down_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/volumn_up_view"
+        android:text="@string/hotkey_volumn_down"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/volumn_down_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/volumn_up_result"
+        android:layout_toRightOf="@id/volumn_down_view"
+        android:text="@string/hotkey_under_test"
+        android:textSize="100dp" />
+
+    <!-- Result submit button -->
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/hotkey_submit"
+        android:textSize="50dp" />
+
+</RelativeLayout>

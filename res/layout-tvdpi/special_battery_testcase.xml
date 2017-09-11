@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/specialBatteryPanel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Plugged Info. Layout -->
+
+    <TextView
+        android:id="@+id/battery_testcase_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_battery_panel"
+        android:textSize="35sp" />
+
+    <TableLayout
+        android:id="@+id/statusLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/battery_testcase_title"
+        android:orientation="vertical" >
+
+        <!-- Current Info. Layout -->
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_current"
+                android:textSize="33dp" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/currentValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="33dp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/battery_current_unit"
+                    android:textSize="33dp" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/currentTestResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:textSize="33dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- Other Info. Layout -->
+
+    <LinearLayout
+        android:id="@+id/countdownLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusLayout"
+        android:orientation="horizontal" >
+
+         <TextView
+            android:id="@+id/battery_seconds_remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/general_seconds_remaining"
+            android:textSize="33dp" />
+
+
+        <TextView
+            android:id="@+id/timePrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="33dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/timePromptBase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_time_second"
+            android:textSize="33dp" >
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/battery_submit"
+        android:textSize="40dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

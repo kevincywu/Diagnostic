@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/runin_health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="20dp"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_charging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="457dp"
+        android:layout_y="20dp"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_AC_USB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="106dp"
+        android:text="@string/runin_battery_usb"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_AC_USB_Resuld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="227dp"
+        android:layout_y="106dp"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_voltage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="176dp"
+        android:text="@string/runin_battery_voltage"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_voltage_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="227dp"
+        android:layout_y="176dp"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="246dp"
+        android:text="@string/runin_battery_level"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_level_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="227dp"
+        android:layout_y="246dp"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="316dp"
+        android:text="@string/runin_battery_current"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_current_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="227dp"
+        android:layout_y="316dp"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_tem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="388dp"
+        android:text="@string/runin_battery_temperature"
+        android:textSize="47dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/runin_tem_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="227dp"
+        android:layout_y="386dp"
+        android:textSize="47dp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/runin_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="450dp"
+        android:layout_y="486dp"
+        android:text="@string/runin_battery_submit"
+        android:textSize="47dp" >
+    </Button>
+
+    <TextView
+        android:id="@+id/runin_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_y="512dp"
+        android:textSize="47dp" >
+    </TextView>
+
+</AbsoluteLayout>

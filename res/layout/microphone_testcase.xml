@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/microphone_testcase_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_microphone_panel"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:id="@+id/microphone_linlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/microphone_start"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:text="@string/microphone_start"
+            android:textSize="50dip" >
+        </Button>
+
+        <TextView
+            android:id="@+id/microphone_stop_downcount"
+            android:layout_width="250dip"
+            android:layout_height="100dip"
+            android:layout_marginLeft="30dip"
+            android:gravity="center"
+            android:textSize="50dip" >
+        </TextView>
+
+        <Button
+            android:id="@+id/microphone_play"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_marginLeft="30dip"
+            android:text="@string/microphone_play"
+            android:textSize="50dip" >
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/microphone_show_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/microphone_linlay"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dip" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/microphone_pass"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/microphone_pass"
+            android:textSize="50dip" >
+        </Button>
+
+        <Button
+            android:id="@+id/microphone_fail"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="30dip"
+            android:text="@string/microphone_fail"
+            android:textSize="50dip" >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

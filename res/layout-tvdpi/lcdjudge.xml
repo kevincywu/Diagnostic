@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lcd_title"
+        android:textSize="50dp"/>
+    <Button
+        android:id="@+id/lcd_pass_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/lcd_pass"
+        android:textSize="50dp"/>
+    <Button
+        android:id="@+id/lcd_fail_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/lcd_fail"
+        android:textSize="50dp"/>
+</RelativeLayout>

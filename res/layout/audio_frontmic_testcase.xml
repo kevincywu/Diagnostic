@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/audiofrontmic_testcase_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_audiofrontmic_panel"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:id="@+id/audio_front_linlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/audio_start"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:text="@string/audio_start"
+            android:textSize="50dip" >
+        </Button>
+
+        <Button
+            android:id="@+id/audio_stop"
+            android:layout_width="250dip"
+            android:layout_height="100dip"
+            android:layout_marginLeft="30dip"
+            android:text="@string/audio_stop"
+            android:textSize="50dip" >
+        </Button>
+
+        <Button
+            android:id="@+id/audio_play"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_marginLeft="30dip"
+            android:text="@string/audio_play"
+            android:textSize="50dip" >
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/audio_show_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/audio_front_linlay"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dip" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/audio_pass"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/audio_pass"
+            android:textSize="50dip" >
+        </Button>
+
+        <Button
+            android:id="@+id/audio_fail"
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="30dip"
+            android:text="@string/audio_fail"
+            android:textSize="50dip" >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>
